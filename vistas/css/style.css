@@ -1,0 +1,313 @@
+/* ESTILO DE LA SECCION PRINCIPAL CON SUPERPOSICION DE UN PSEUDOELEMENTO BEFORE DE BORDES REDONDEADOS EN LA IMAGEN */
+
+.seccionText{
+    width: 55vw;
+}
+
+.seccionRuta{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+
+.seccionImagen{
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/27/06/30/skyscrapers-3184798_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px;
+    position: relative;
+    width: 45vw;
+}
+
+.seccionImagen::before {
+    content: "";
+    position: absolute;
+    background: white;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 40px;
+    border-radius: 0 40px 40px 0 / 0 300px 300px 0 ;
+    -webkit-border-radius: 0 40px 40px 0 / 0 300px 300px 0 ;
+    -moz-border-radius: 0 40px 40px 0 / 0 300px 300px 0 ;
+    -ms-border-radius: 0 40px 40px 0 / 0 300px 300px 0 ;
+    -o-border-radius: 0 40px 40px 0 / 0 300px 300px 0 ;
+}
+
+/* ESTILO DE LA TRANSICION DEL TEXTO QUE APARECE DESDE EL MARGEN IZQUIERDO */
+
+
+.textAnimation p:first-of-type {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+    animation-fill-mode: backwards;
+}
+
+.textAnimation p:last-of-type {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+}
+
+.btn1 {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1000ms;
+    animation-fill-mode: backwards;
+}
+
+.btn2 {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1500ms;
+    animation-fill-mode: backwards;
+}
+
+.textAnimation2 {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes translateLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-80%);
+        -webkit-transform: translateX(-80%);
+        -moz-transform: translateX(-80%);
+        -ms-transform: translateX(-80%);
+        -o-transform: translateX(-80%);
+}
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+}
+
+/* ESTILO SPINNER */
+.spinner-wrapper{
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+
+/* ESTILO DEL FOOTER */
+
+footer {
+    background: linear-gradient(90deg, #010026 0%, #000354 100% );
+    color: white;
+}
+
+.navfooter a {
+    color: white;
+}
+
+/* ESTILO DE LOS ICONOS DE LAS REDES SOCIALES */
+
+.mediaicons>li>a>i{
+    display: flex;
+    color: #ffffff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.mediaicons>li:nth-child(1)>a>i{
+    background-color: #4267b2;
+}
+.mediaicons>li:nth-child(1):hover>a>i{
+    color: #4267b2;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(1):hover>a{
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(2)>a>i{
+    background-color: #e1306c;
+}
+.mediaicons>li:nth-child(2):hover>a>i{
+    color: #e1306c;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(2):hover>a{
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(3)>a>i{
+    background-color: #1da1f2;
+}
+.mediaicons>li:nth-child(3):hover>a>i{
+    color: #1da1f2;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(3):hover>a{
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(4)>a>i{
+    background-color: #0077b5;
+}
+.mediaicons>li:nth-child(4):hover>a>i{
+    color: #0077b5;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(4):hover>a{
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(5)>a>i{
+    background-color: #EA4335;
+}
+.mediaicons>li:nth-child(5):hover>a>i{
+    color: #EA4335;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(5):hover>a{
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(6)>a>i{
+    background-color: #25D366;
+}
+.mediaicons>li:nth-child(6):hover>a>i{
+    color: #25D366;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.mediaicons>li:nth-child(6):hover>a{
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+@media screen and (max-width: 767px) 
+{
+    .seccionText{
+        width: 100%;
+        order: 2;
+    }
+    
+    .seccionRuta{
+        padding-top: 1rem;
+    }
+
+    .seccionImagen{
+        background-position: 0px;
+        width: 100%;
+        min-height: 40vh;
+        order: 1;
+    }
+    
+    .seccionImagen::before {
+        content: "";
+        position: absolute;
+        background: white;
+        z-index: 1;
+        top: inherit;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 40px;
+        width: 100%;
+        border-radius: 300px 300px 0px 0px / 40px 40px 0px 0px ;
+        -webkit-border-radius: 300px 300px 0px 0px / 40px 40px 0px 0px ;
+        -moz-border-radius: 300px 300px 0px 0px / 40px 40px 0px 0px ;
+        -ms-border-radius: 300px 300px 0px 0px / 40px 40px 0px 0px ;
+        -o-border-radius: 300px 300px 0px 0px / 40px 40px 0px 0px ;
+    }
+}
+
+@media screen and (max-width: 575px) 
+{
+    .seccionImagen{
+        min-height: 25vh;
+    }
+}
