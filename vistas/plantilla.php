@@ -20,7 +20,7 @@
             <a class="navbar-brand flex-wrap align-items-center justify-content-center d-flex d-md-none" href="index.php?ruta=inicio">
                 <img src="./vistas/imagenes/logo.jpg" alt="Logo" height="auto" width="100" class="d-inline-block">
                 <div class="d-flex flex-column">
-                    <p class="h4 mb-0 text-uppercase titulo">Administración Dinatale</p>
+                    <p class="h4 mb-0 text-uppercase titulo">Administracion Dinatale</p>
                     <p class="mb-0">Consorcios</p>
                 </div>
             </a>
@@ -30,7 +30,7 @@
                 <a class="navbar-brand flex-wrap justify-content-center align-items-center d-none d-md-flex" href="index.php?ruta=inicio">
                     <img src="./vistas/imagenes/logo.jpg" alt="Logo" height="auto" width="100" class="d-inline-block">
                     <div class="d-flex flex-column">
-                        <p class="h4 mb-0 text-uppercase titulo">Administración Dinatale</p>
+                        <p class="h4 mb-0 text-uppercase titulo">Administracion Dinatale</p>
                         <p class="mb-0">Consorcios</p>
                     </div>
                 </a>
@@ -63,7 +63,7 @@
         <nav class="navbar navbar-expand-lg navfooter">
             <div class="container-fluid d-flex justify-content-center justify-content-md-between px-3 px-sm-5">
                 <a class="navbar-brand" href="#">
-                    <p class="h4 px-3">Administración Di Natale</p>
+                    <p class="h4 px-3">Administración Dinatale</p>
                 </a>
                 <div class="d-flex">
                     <ul class="mediaicons d-flex nav justify-content-center">  
