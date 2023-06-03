@@ -5,8 +5,10 @@
 
     $nombre_form = $_POST['nombre'];
     $email_form = $_POST['email'];
+    $telefono_form = $_POST['telefono'];
     $mensaje_form = $_POST['mensaje'];
-    $cuerpo_mensaje = "Nombre: " . $nombre_form . "\r\n" . "Email: " . $email_form . "\r\n" . "Mensaje: " . $mensaje_form;
+
+    $cuerpo_mensaje = "Nombre: " . $nombre_form . "\r\n" . "Telefono: " . $telefono_form . "\r\n" . "Email: " . $email_form . "\r\n" . "Mensaje: " . $mensaje_form;
 
 
 if(mail("administraciondinatale@gmail.com", "Mensaje enviado desde mi sitio administraciondinatale.com.ar", $cuerpo_mensaje))

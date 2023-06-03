@@ -5,7 +5,7 @@
             <div class="h4 text-center pt-2">Formulario de Contacto</div>
             <input type="text" class="form-control w-100 my-3" id="formNombre" name="nombre" placeholder="Nombre completo" required>
             <div class="d-flex gap-2 flex-column flex-md-row m-0">
-                <input type="text" class="form-control w-100" id="formNombre" name="telefono" placeholder="Telefono">
+                <input type="text" class="form-control w-100" id="formTelefono" name="telefono" placeholder="Telefono">
                 <input type="email" class="form-control w-100" id="formEmail" name="email" placeholder="Correo" required>
             </div>
             <textarea class="form-control mt-3"  name="mensaje" id="formMensaje" cols="30" rows="5" placeholder="Sobre qué quieres consultar?" required></textarea>
