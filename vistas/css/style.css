@@ -188,6 +188,10 @@ footer {
     color: white;
 }
 
+.navfooter a:hover {
+    color: white;
+}
+
 /* ESTILO DE LOS ICONOS DE INFORMACION DE CONTACTO*/
 
 .mediaicons li{
