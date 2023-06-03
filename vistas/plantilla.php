@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./vistas/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="./vistas/imagenes/favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -63,18 +63,14 @@
         </div>
         <div class="seccionImagen"> </div>
     </section>
-    <footer class="d-flex pt-2">
+    <footer class="d-flex">
         <nav class="navbar navbar-expand-lg navfooter w-100">
-            <div class="d-flex px-3 px-sm-5 flex-column flex-xxl-row w-100 justify-content-xl-between">
-                <p class="px-3 text-center text-xl-start text-uppercase titulo">Administración Dinatale</p>
-                <div class="d-flex">
-                    <ul class="d-flex nav justify-content-center w-100 justify-content-xl-start">  
-                        <li class="nav-item"><a class="nav-link d-flex py-0"><p class="my-1 text-center">Dirección: Tte. Gral. Juan Domingo Peron 1143 - 6to. piso - Oficina "79"</p></a></li>
-                        <li class="nav-item "><a class="nav-link d-flex py-0" href="mailto:administraciondinatale@gmail.com"><p class="my-1 text-center">E-mail: administraciondinatale@gmail.com</p></a></li>
-                        <li class="nav-item"><a class="nav-link d-flex py-0" href="tel:+5491143826817"><p class="my-1 text-center">Telefono/Fax: 011-4382-6817</p></a></li>
-                    </ul>          
-                </div>
-            </div>
+            <ul class="d-flex flex-column flex-xl-row nav w-100 justify-content-xl-evenly align-items-center">  
+                <p class="text-center text-uppercase tituloFooter px-3 py-0 my-0">Administración Dinatale</p>
+                <li class="nav-item"><a class="nav-link d-flex py-0"><p class="mb-1 text-center">Dirección: Tte. Gral. Juan Domingo Peron 1143 - 6to. piso - Oficina "79"</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex py-0" href="mailto:administraciondinatale@gmail.com"><p class="my-1 text-center">E-mail: administraciondinatale@gmail.com</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex py-0" href="tel:+5491143826817"><p class="my-1 text-center">Telefono/Fax: 011-4382-6817</p></a></li>
+            </ul>          
         </nav>
     </footer>
     </body>

@@ -10,11 +10,12 @@
             </div>
             <textarea class="form-control mt-3"  name="mensaje" id="formMensaje" cols="30" rows="5" placeholder="Sobre qué quieres consultar?" required></textarea>
             <input type="hidden" name="_subject" value="Nuevo mensaje!">
-
-            <button id="btn" class="btn btn-dark w-100 mt-3" type="submit">
-                <span id="text" class="btn-spinner">Enviar formulario</span>
+            <div class="d-flex justify-content-center">
+            <button id="btn" class="btn btn-dark mt-3" type="submit">
+                <span id="text" class="btn-spinner py-2 px-4">Enviar formulario</span>
                 <span id="spin" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"><span class="sr-only">Loading...</span></span>
             </button>
+            </div>
         </form>    
         <div class="d-flex flex-column">            
             <ul class="mediaicons d-flex nav justify-content-center flex-column mt-3">  
@@ -24,7 +25,7 @@
             </ul>   
         </div>
         <p class="small">Nuestro horario de atencion directa es de lunes a viernes de 14.00 a 18.00 hs</p>
-        <div class="d-flex justify-content-center justify-content-sm-end"><a href="index.php?ruta=inicio" class="btn btn-dark py-2 px-4">Volver a la página de inicio</a></div>
+        <div class="d-flex justify-content-center justify-content-sm-end"><a href="index.php?ruta=inicio" class="btn btn-dark py-2 px-4">Volver a inicio</a></div>
     </div>
 </section>
 

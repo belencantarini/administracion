@@ -1,7 +1,17 @@
 /* ESTILO DE LA SECCION PRINCIPAL CON SUPERPOSICION DE UN PSEUDOELEMENTO BEFORE DE BORDES REDONDEADOS EN LA IMAGEN */
 .titulo {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 18px !important;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.tituloFooter {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 3.5;
+}
+
+.navbar-brand {
+    color: #175a80 !important;
 }
 
 * {
@@ -11,7 +21,22 @@
     text-align: justify;
 }
 
+.btn-dark {
+    background-color: #175a80 !important;
+    border-color: #003479 !important;
+}
 
+.btn-dark:hover {
+    background-color: #2481b7 !important;
+}
+
+.btn {
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
 
 .seccionText{
     width: 55vw;
@@ -179,7 +204,7 @@
 /* ESTILO DEL FOOTER */
 
 footer {
-    background: linear-gradient(90deg, #010026 0%, #000354 100% );
+    background: linear-gradient(90deg, #071b26 0%, #175a80 100% );
     color: white;
     min-height: 5rem;
 }
