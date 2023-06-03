@@ -1,8 +1,8 @@
 <section id='contacto' class="w-75 m-auto">
     <div class="textAnimation2">
-        <div class="text-uppercase text-center">
-            <div>Contactame</div>
-            <div class="h2">Enviame tu consulta</div>
+        <div class="text-uppercase d-flex flex-column ">
+            <div class="text-center">Contactame</div>
+            <div class="h2 text-center">Enviame tu consulta</div>
         </div>        
         <form id="form" name="sendEmailForm" action="controladores/contacto.controlador.php" method="POST" class="container p-0">
             <div class="d-flex gap-2 flex-column flex-md-row m-0">
@@ -18,7 +18,9 @@
                 <span id="spin" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"><span class="sr-only">Loading...</span></span>
             </button>
         </form>
-
+        <div class="d-flex justify-content-center">
+            <div><a href="index.php?ruta=inicio" class="btn btn-dark p-2 my-5 btnInicio">Volver a inicio</a></div>
+        </div>
     </div>
 </section>
 

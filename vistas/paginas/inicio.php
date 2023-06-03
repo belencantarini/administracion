@@ -12,7 +12,6 @@
             
             <p>Si está buscando una Administración de Consorcios confiable y experimentada, no dude en ponerse en contacto con nosotros, podemos contribuir al buen funcionamiento de su consorcio.</p>
            
-            <div><a href="index.php?ruta=presupuesto" class="btn btn-dark p-2 my-2 btn1">Quiero pedir un presupuesto</a></div>
-            <div><a href="index.php?ruta=contacto" class="btn btn-dark p-2 my-2 btn2">Contacto</a></div>
+            <div><a href="index.php?ruta=contacto" class="btn btn-dark p-2 my-2 btnContacto">Contacto</a></div>
         </div>
 </section>

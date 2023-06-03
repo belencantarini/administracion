@@ -115,15 +115,7 @@
     animation-fill-mode: backwards;
 }
 
-.btn1 {
-    animation-name: translateLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 2250ms;
-    animation-fill-mode: backwards;
-}
-
-.btn2 {
+.btnContacto {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -137,6 +129,18 @@
     animation-timing-function: ease-in;
     animation-fill-mode: backwards;
 }
+
+.btnInicio {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1000ms;
+    animation-fill-mode: backwards;
+}
+
+
+
+
 
 
 @keyframes translateLeft {
