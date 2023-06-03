@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./vistas/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="./vistas/imagenes/favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -65,7 +66,7 @@
     <footer class="d-flex pt-2">
         <nav class="navbar navbar-expand-lg navfooter w-100">
             <div class="d-flex px-3 px-sm-5 flex-column flex-xxl-row w-100 justify-content-xl-between">
-                <p class="px-3 text-center text-xl-start titulo">Administración Dinatale</p>
+                <p class="px-3 text-center text-xl-start text-uppercase titulo">Administración Dinatale</p>
                 <div class="d-flex">
                     <ul class="d-flex nav justify-content-center w-100 justify-content-xl-start">  
                         <li class="nav-item"><a class="nav-link d-flex py-0"><p class="my-1 text-center">Dirección: Tte. Gral. Juan Domingo Peron 1143 - 6to. piso - Oficina "79"</p></a></li>
