@@ -18,14 +18,12 @@
 }
 
 .seccionRuta{
-    padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-bottom: 1rem;
 }
 
 .seccionImagen{
-    background-image: url("https://cdn.pixabay.com/photo/2018/02/27/06/30/skyscrapers-3184798_1280.jpg");
+    background-image: url(../imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -100px;
@@ -51,7 +49,15 @@
 
 /* ESTILO DE LA TRANSICION DEL TEXTO QUE APARECE DESDE EL MARGEN IZQUIERDO */
 
-.textAnimation p:nth-of-type(1) {
+.textAnimation>:nth-child(1) {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0ms;
+    animation-fill-mode: backwards;
+}
+
+.textAnimation>:nth-child(2) {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -59,7 +65,7 @@
     animation-fill-mode: backwards;
 }
 
-.textAnimation p:nth-of-type(2) {
+.textAnimation>:nth-child(3) {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -67,7 +73,7 @@
     animation-fill-mode: backwards;
 }
 
-.textAnimation p:nth-of-type(3) {
+.textAnimation>:nth-child(4) {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -75,7 +81,7 @@
     animation-fill-mode: backwards;
 }
 
-.textAnimation ul li:nth-of-type(1) {
+.textAnimation>:nth-child(5) {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -83,7 +89,7 @@
     animation-fill-mode: backwards;
 }
 
-.textAnimation ul li:nth-of-type(2) {
+.textAnimation>:nth-child(6) {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -91,52 +97,43 @@
     animation-fill-mode: backwards;
 }
 
-.textAnimation ul li:nth-of-type(3) {
+
+.textAnimation2>:nth-child(1) {
     animation-name: translateLeft;
     animation-duration: 2s;
     animation-timing-function: ease-in;
-    animation-delay: 1500ms;
+    animation-delay: 0ms;
+    animation-fill-mode: backwards;
+}
+.textAnimation2>:nth-child(2) {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 250ms;
+    animation-fill-mode: backwards;
+}
+.textAnimation2>:nth-child(3) {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+}
+.textAnimation2>:nth-child(4) {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 750ms;
+    animation-fill-mode: backwards;
+}
+.textAnimation2>:nth-child(5) {
+    animation-name: translateLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1000ms;
     animation-fill-mode: backwards;
 }
 
-.textAnimation ul li:nth-of-type(4) {
-    animation-name: translateLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 1750ms;
-    animation-fill-mode: backwards;
-}
-
-.textAnimation p:nth-of-type(4) {
-    animation-name: translateLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 2000ms;
-    animation-fill-mode: backwards;
-}
-
-.btn1 {
-    animation-name: translateLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 2250ms;
-    animation-fill-mode: backwards;
-}
-
-.btn2 {
-    animation-name: translateLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay: 2500ms;
-    animation-fill-mode: backwards;
-}
-
-.textAnimation2 {
-    animation-name: translateLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: backwards;
-}
 
 
 @keyframes translateLeft {
@@ -184,19 +181,23 @@
 footer {
     background: linear-gradient(90deg, #010026 0%, #000354 100% );
     color: white;
+    min-height: 5rem;
 }
 
 .navfooter a {
     color: white;
 }
 
-/* ESTILO DE LOS ICONOS DE LAS REDES SOCIALES */
+/* ESTILO DE LOS ICONOS DE INFORMACION DE CONTACTO*/
 
-.mediaicons>li>a>i{
+.mediaicons li{
     display: flex;
-    color: #ffffff;
-    height: 35px;
-    width: 35px;
+}
+
+.mediaicons i{
+    display: flex;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -204,22 +205,18 @@ footer {
     -o-border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-right: 6px;
 }
 
-.mediaicons>li:nth-child(1)>a>i{
-    background-color: #4267b2;
+.mediaicons p{
+    color: black;
 }
-.mediaicons>li:nth-child(1):hover>a>i{
+
+.fa-map-marker-alt{
     color: #4267b2;
     background-color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
 }
-.mediaicons>li:nth-child(1):hover>a{
+.mediaicons>li:nth-child(1):hover>a>i{
+    background-color: #4267b2;
     color: #fff;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -227,32 +224,28 @@ footer {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-.mediaicons>li:nth-child(2)>a>i{
-    background-color: #e1306c;
-}
-.mediaicons>li:nth-child(2):hover>a>i{
+
+.fa-envelope{
     color: #e1306c;
     background-color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
 }
-.mediaicons>li:nth-child(2):hover>a{
+.mediaicons>li:nth-child(2):hover>a>i{
     color: #fff;
+    background-color:#e1306c;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-.mediaicons>li:nth-child(3)>a>i{
-    background-color: #1da1f2;
-}
-.mediaicons>li:nth-child(3):hover>a>i{
+
+.fa-phone-alt{
     color: #1da1f2;
     background-color: #fff;
+}
+.mediaicons>li:nth-child(3):hover>a>i{
+    color: #fff;
+    background-color: #1da1f2;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -260,66 +253,6 @@ footer {
     -o-transition: 0.3s;
 }
 .mediaicons>li:nth-child(3):hover>a{
-    color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-.mediaicons>li:nth-child(4)>a>i{
-    background-color: #0077b5;
-}
-.mediaicons>li:nth-child(4):hover>a>i{
-    color: #0077b5;
-    background-color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-.mediaicons>li:nth-child(4):hover>a{
-    color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-.mediaicons>li:nth-child(5)>a>i{
-    background-color: #EA4335;
-}
-.mediaicons>li:nth-child(5):hover>a>i{
-    color: #EA4335;
-    background-color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-.mediaicons>li:nth-child(5):hover>a{
-    color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-.mediaicons>li:nth-child(6)>a>i{
-    background-color: #25D366;
-}
-.mediaicons>li:nth-child(6):hover>a>i{
-    color: #25D366;
-    background-color: #fff;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-.mediaicons>li:nth-child(6):hover>a{
     color: #fff;
     transition: 0.3s;
     -webkit-transition: 0.3s;
