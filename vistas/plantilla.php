@@ -16,58 +16,18 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <section class="d-flex flex-column flex-md-row seccionMain flex-grow-1">
-        <div>
-            <a class="navbar-brand flex-wrap align-items-center justify-content-center d-flex d-md-none" href="index.php?ruta=inicio">
-                <img src="./vistas/imagenes/logo.jpg" alt="Logo" height="auto" width="100" class="d-inline-block">
-                <div class="d-flex flex-column">
-                    <p class="mb-0 text-uppercase titulo">Administracion Dinatale</p>
-                    <p class="mb-0">Consorcios</p>
-                </div>
-            </a>
-        </div>
+
         <div class="seccionText">
             <div class="d-flex">
                 <a class="navbar-brand flex-wrap justify-content-center align-items-center d-none d-md-flex" href="index.php?ruta=inicio">
                     <img src="./vistas/imagenes/logo.jpg" alt="Logo" height="auto" width="100" class="d-inline-block">
                     <div class="d-flex flex-column">
-                        <p class="h4 mb-0 text-uppercase titulo">Administracion Dinatale</p>
+                        <p class="mb-0 text-uppercase titulo">Administracion Dinatale</p>
                         <p class="mb-0">Consorcios</p>
                     </div>
                 </a>
             </div>
-            <div class="seccionRuta">
-                <?php
-                    if (isset($_GET["ruta"])) {
-                        if (
-                            $_GET["ruta"] == "inicio" ||
-                            $_GET["ruta"] == "contacto" 
-                        ) {
-                            include "paginas/" . $_GET["ruta"] . ".php";
-                        } else {
-                            include "paginas/error404.php";
-                        }
-                    } else {
-                        include "paginas/inicio.php";
-                    }
-                    if (isset($_GET["exito_envio"])) {
-                        exitoEnvioContactoSweetAlert();
-                        redireccionContacto();
-                    }
-                ?>   
-            </div>         
-        </div>
-        <div class="seccionImagen"> </div>
-    </section>
-    <footer>
-        <nav class="navbar navbar-expand-lg navfooter">
-            <div class="container-fluid d-flex justify-content-center justify-content-md-between px-3 px-sm-5">
-                <a class="navbar-brand" href="#">
-                    <p class="text-uppercase titulo px-3">Administración Dinatale</p>
-                </a>
-                <div class="d-flex">
-                    <ul class="mediaicons d-flex nav justify-content-center">  
-                        <li class="nav-item"><a class="nav-link d-flex" href="mailto:damian.gdl@hotmail.com"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i><p class="d-none">Gmail</p></a></li>
-                        <li class="nav-item"><a class="nav-link d-flex" href="https://api.whatsapp.com/send?phone=5491155086946&text=Hola!%20Vi%20tu%20sitio%20web%20sobre%20métodos%20de%20estudio%20y%20quisiera%20saber%20más!" target="_blank"><i class="fab fa-whatsapp fa-1x" aria-hidden="true"></i><p class="d-none">WhatsApp</p></a></li>
+
                     </ul>          
                 </div>
             </div>
