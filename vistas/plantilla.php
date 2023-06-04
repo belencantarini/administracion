@@ -8,7 +8,7 @@
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,800;1,300&display=swap" rel="stylesheet">    
     <!-- Fuentes -->
     <link rel="icon" type="image/png" href="./vistas/imagenes/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
@@ -27,7 +27,7 @@
                         <p>Administracion</p>
                         <p>Dinatale</p>
                     </div>                     
-                    <p class="mb-0 text-center">Consorcios</p>
+                    <p class="mb-0 text-center consorcios">c o n s o r c i o s</p>
                 </div>
             </a>
         </div>
@@ -40,7 +40,7 @@
                             <p>Administracion</p>
                             <p>Dinatale</p>
                         </div>                        
-                        <p class="mb-0  ms-2">Consorcios</p>
+                        <p class="mb-0  ms-2 consorcios">c o n s o r c i o s</p>
                     </div>
                 </a>
             </div>
@@ -78,9 +78,9 @@
                     <p class="mb-1">Administracion</p>
                     <p class="mb-1">Dinatale</p>
                 </div>
-                <li class="nav-item"><a class="nav-link d-flex py-0"><p class="mb-0">Dirección: Tte. Gral. Juan Domingo Peron 1143</p></a></li>
-                <li class="nav-item"><a class="nav-link d-flex py-0" href="mailto:administraciondinatale@gmail.com"><p class="mb-0">E-mail: administraciondinatale@gmail.com</p></a></li>
-                <li class="nav-item"><a class="nav-link d-flex py-0" href="tel:+5491143826817"><p class="mb-0">Telefono/Fax: 011-4382-6817</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex py-0"><p class="mb-0 text-center">Dirección: Tte. Gral. Juan Domingo Perón 1143 - 14.00 a 18.00 hs.</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex py-0" href="mailto:administraciondinatale@gmail.com"><p class="mb-0 text-center">E-mail: administraciondinatale@gmail.com</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex py-0" href="tel:+5491143826817"><p class="mb-0 text-center">Télefono/Fax: 011-4382-6817</p></a></li>
             </ul>          
         </nav>
     </footer>

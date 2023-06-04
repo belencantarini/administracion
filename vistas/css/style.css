@@ -1,32 +1,44 @@
 /* ESTILO DE LA SECCION PRINCIPAL CON SUPERPOSICION DE UN PSEUDOELEMENTO BEFORE DE BORDES REDONDEADOS EN LA IMAGEN */
 .titulo>:nth-child(1) {
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 0px;
     line-height: 18px;
+    letter-spacing: -1px;
 }
 
 .titulo>:nth-child(2) {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 18px;
     margin-bottom: 0px;
     line-height: 18px;
+    letter-spacing: 1px;
 }
 
 .tituloFooter>:nth-child(1) {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 0px;
     line-height: 18px;
+    letter-spacing: -1px;
 }
 
 .tituloFooter>:nth-child(2) {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 900;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 0px;
     line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.consorcios {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .navbar-brand {
