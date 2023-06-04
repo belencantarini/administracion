@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="./vistas/imagenes/favicon.svg">
+    <link rel="icon" type="image/png" href="./vistas/imagenes/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -18,9 +18,9 @@
 <body class="d-flex flex-column min-vh-100">
     <section class="d-flex flex-column flex-md-row seccionMain flex-grow-1">
         <div>
-            <a class="navbar-brand flex-wrap align-items-center justify-content-center d-flex d-md-none" href="index.php?ruta=inicio">
-                <img src="./vistas/imagenes/logo.jpg" alt="Logo" height="auto" width="100" class="d-inline-block">
-                <div class="d-flex flex-column">
+            <a class="navbar-brand flex-wrap align-items-end justify-content-center d-flex d-md-none gap-3 my-3" href="index.php?ruta=inicio">
+                <img src="./vistas/imagenes/logo.png" alt="Logo" height="auto" width="80" class="d-inline-block">
+                <div class="d-flex flex-column align-items-center">
                     <p class="mb-0 text-uppercase titulo ">Administracion Dinatale</p>
                     <p class="mb-0 text-center">Consorcios</p>
                 </div>
@@ -28,15 +28,15 @@
         </div>
         <div class="seccionText">
             <div class="d-flex">
-                <a class="navbar-brand flex-wrap justify-content-center align-items-center d-none d-md-flex" href="index.php?ruta=inicio">
-                    <img src="./vistas/imagenes/logo.jpg" alt="Logo" height="auto" width="100" class="d-inline-block">
+                <a class="navbar-brand flex-wrap justify-content-center align-items-end d-none d-md-flex gap-3 my-3" href="index.php?ruta=inicio">
+                    <img src="./vistas/imagenes/logo.png" alt="Logo" height="auto" width="80" class="d-inline-block">
                     <div class="d-flex flex-column">
                         <p class="mb-0 text-uppercase titulo">Administracion Dinatale</p>
                         <p class="mb-0">Consorcios</p>
                     </div>
                 </a>
             </div>
-            <div class="seccionRuta m-auto my-4">
+            <div class="m-auto my-4">
                 <?php
                     if (isset($_GET["ruta"])) {
                         if (
