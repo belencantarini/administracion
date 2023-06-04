@@ -27,7 +27,7 @@
                         <p>Administracion</p>
                         <p>Dinatale</p>
                     </div>                     
-                    <p class="mb-0 text-center text-uppercase">Consorcios</p>
+                    <p class="mb-0 text-center">Consorcios</p>
                 </div>
             </a>
         </div>
@@ -40,7 +40,7 @@
                             <p>Administracion</p>
                             <p>Dinatale</p>
                         </div>                        
-                        <p class="mb-0 text-uppercase ms-2">Consorcios</p>
+                        <p class="mb-0  ms-2">Consorcios</p>
                     </div>
                 </a>
             </div>
@@ -78,7 +78,7 @@
                     <p class="mb-1">Administracion</p>
                     <p class="mb-1">Dinatale</p>
                 </div>
-                <li class="nav-item"><a class="nav-link d-flex py-0"><p class="mb-0">Dirección: Tte. Gral. Juan Domingo Peron 1143 - 6to. piso - Oficina "79"</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex py-0"><p class="mb-0">Dirección: Tte. Gral. Juan Domingo Peron 1143</p></a></li>
                 <li class="nav-item"><a class="nav-link d-flex py-0" href="mailto:administraciondinatale@gmail.com"><p class="mb-0">E-mail: administraciondinatale@gmail.com</p></a></li>
                 <li class="nav-item"><a class="nav-link d-flex py-0" href="tel:+5491143826817"><p class="mb-0">Telefono/Fax: 011-4382-6817</p></a></li>
             </ul>          

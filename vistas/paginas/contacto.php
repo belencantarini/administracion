@@ -19,7 +19,7 @@
         </form>    
         <div class="d-flex flex-column">            
             <ul class="mediaicons d-flex nav justify-content-center flex-column mt-3">  
-                <li class="nav-item"><a class="nav-link d-flex p-0 align-items-center"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><p class="my-0 mx-2">Tte. Gral. J. D. Peron 1143 - 6to. piso - Of. "79"</p></a></li>
+                <li class="nav-item"><a class="nav-link d-flex p-0 align-items-center"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><p class="my-0 mx-2">Tte. Gral. J. D. Peron 1143</p></a></li>
                 <li class="nav-item"><a class="nav-link d-flex p-0 align-items-center" href="mailto:administraciondinatale@gmail.com"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i><p class="my-0 mx-2">administraciondinatale@gmail.com</p></a></li>
                 <li class="nav-item"><a class="nav-link d-flex p-0 align-items-center" href="tel:+5491143826817"><i class="fas fa-phone-alt" aria-hidden="true"></i><p class="my-0 mx-2">Telefono/Fax: 011-4382-6817</p></a></li>
             </ul>   

@@ -29,8 +29,6 @@
     line-height: 18px;
 }
 
-
-
 .navbar-brand {
     color: #175a80 !important;
 }
@@ -40,6 +38,10 @@
     font-weight: 300;
     font-size: 13px;
     text-align: justify;
+}
+
+.textAnimation, .textAnimation2>p:nth-of-type(1) {
+    line-height: 25px;
 }
 
 .btn-dark {
