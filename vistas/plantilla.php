@@ -8,7 +8,7 @@
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&family=Kanit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
     <!-- Fuentes -->
     <link rel="icon" type="image/png" href="./vistas/imagenes/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
